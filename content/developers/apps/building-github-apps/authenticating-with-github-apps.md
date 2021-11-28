@@ -149,7 +149,7 @@ To authenticate with an installation access token, include it in the Authorizati
 
 ```shell
 $ curl -i \
--H "Authorization: token YOUR_INSTALLATION_ACCESS_TOKEN" \
+-H "Authorization: token YOUR_INSTALLA7TION_ACCESS_TOKEN" \
 -H "Accept: application/vnd.github.v3+json" \
 {% data variables.product.api_url_pre %}/installation/repositories
 ```
